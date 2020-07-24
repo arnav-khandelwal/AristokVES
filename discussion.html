@@ -48,16 +48,11 @@
 
         <!--NAVBAR END-->
      
-<!-- The core Firebase JS SDK is always required and must be listed first -->
 <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
 
 <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-database.js"></script>
 
-<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-
 <script>
-  // Your web app's Firebase configuration
   var firebaseConfig = {
     apiKey: "AIzaSyBR4lMO-YV_veDfx4PGvLPUrdxCaRsOxms",
     authDomain: "testing-7f94c.firebaseapp.com",
@@ -105,8 +100,6 @@ alert("Welcome to the forum! " + myName);
             "Password": myPass,
             "time":datetime
         });
-    
-    // prevent form from submitting
         return false;
     }
     function deleteMessage(self) {
@@ -119,7 +112,6 @@ alert("Welcome to the forum! " + myName);
  
 // attach listener for delete message
 firebase.database().ref("messages").on("child_removed", function (snapshot) {
-    // remove message node
     document.getElementById("message-" + snapshot.key).innerHTML = "This message has been removed";
 });
 </script>
