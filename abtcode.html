@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <!-- Links and meta data -->
+      <meta charset="UTF-8"> 
+      <meta name="viewport" content="width=device-width, initial-scale=1"> 
+      <link rel="stylesheet" type="text/css" href="abtcode.css"> <!-- our original css file -->
+      <link rel="icon" href="images/favicon.png" type="image/gif" sizes="40x40"> <!-- Fav Icon -->
+      <link rel="stylesheet" href="loading.css">
+      <script>
+        //
+        </script>
+   </head>
+   <body>
+      <div class='loading-circle-container'>
+         <div class="loading-circle"></div>
+      </div>
+      <div>
+         <div class="main-text">
+            <div>
+               <span>
+                  <br><br><br>
+                  <h1 style="font-size: 100px">ABOUT THE CODE</h1>
+               </span>
+            </div>
+            <h2 class="changing-text">< / ></h2>
+         </div>
+         <div class="main-text">
+            <table width="100%">
+               <tr>
+                  <td width="30%">
+                     <center><br><br><br><br><img src="images/2.jpg"></center>
+                  </td>
+                  <td width="70%" align="justify">
+                     <h1>This is just an overview of the website, for detailed analysis, we suggest you to visit our github repository and read the comments along with the code for in-depth understanding! The repository can be found <a href="https://github.com/arnav181104/AristokVES" target="__blank">here</a> We request you to read this thoroughly to understand our code and its working. Cheers!
+      
+                     </h1>
+                  </td>
+               </tr>
+            </table>
+            <h2 class="changing-text">Note</h2>
+         </div>
+         <div class="main-text">
+            <table width="100%">
+               <tr>
+                  <td width="30%">
+                     <center><br><br><br><br><img src="images/index.png"></center>
+                  </td>
+                  <td width="70%" align="justify">
+                     <h1>This is the page where the customer first comes upon, it has been named to "Index.html" as per github's convention to host this as the main page.
+                        The essential component here is the circle,which on hover flips to reveal external links to the rest of the website whereas the circle itself is anchored to the main website. This page here is composed of javascript,CSS and obviously HTML. The javascript here is used for the flipping of the circle and the revealing of the external links, while css styles the entire page and the entire page is structured by HTML.
+                     </h1>
+                  </td>
+               </tr>
+            </table>
+            <h2 class="changing-text">Index.html</h2>
+         </div>
+         <div class="main-text">
+            <table width="100%">
+               <tr>
+                  <td width="30%">
+                     <center><br><br><br><br><img src="images/landing.png"></center>
+                  </td>
+                  <td width="70%" align="justify">
+                     <h1>This is the landing page of the website which portrays the companies ideas, also advertising some of the key features of the software. Its completely styled by css and the sliding animation of all the elements is written in javascript also the slideshow is written in javascript. </h1>
+                  </td>
+               </tr>
+            </table>
+            <h2 class="changing-text">Landing.html</h2>
+         </div>
+         <div class="main-text">
+            <table width="100%">
+               <tr>
+                  <td width="30%">
+                     <center><br><br><br><br><img src="images/pricing.png"></center>
+                  </td>
+                  <td width="70%" align="justify">
+                     <h1>This page is simply for the display of different plans that a user can opt for so there isn't anything that needs to be specially explained as everything is pretty easy and self explanatory.</h1>
+                  </td>
+               </tr>
+            </table>
+            <h2 class="changing-text">Pricing.html</h2>
+         </div>
+         <div class="main-text">
+            <table width="100%">
+               <tr>
+                  <td width="30%">
+                     <center><br><br><br><br><img src="images/discussion.png"></center>
+                  </td>
+                  <td width="70%" align="justify">
+                     <h1>Yes, I know this is the main reason anyone is going to open this page as the discussion forum may be the main attarction of our website and needs the most explanation. So, let's start with the database, so we used the firebase database offered by google to store different pieces of information like name, password and messages. Basically, each message that gets posted is given a unique ID for the managment of messages which makes it easy to find the messages if required. On opening the page, the user is prompted to enter the name and password which is stored in the database and using if function, the browser looks whether the name and password have been stored before or not. Now if the name and password have been used before to send messages the browser provides the option to delete the messages but if the password or name or both differ due to different cases, you wouldn't be able to delete any previous messages made by the username. Now using the if function again if the name is equal to our names (US - "CREATORS") and a the password is equal to a predefined password, an option to delete any message is avialable.You can enter the username as Arjun Kapoor or Arnav Khandelwal and enter the password as MODERATOR123 to understand this deeply. Now this is just the overview of the page, you can read the code and understand it better reading the comments.</h1>
+                     <br><br><br><br><br><br><br><br><br><br><br><br>
+                  </td>
+               </tr>
+            </table>
+            <h2 class="changing-text">Discussion.html</h2>
+         </div>
+      </div>
+      <script src="abtcode.js"></script>
+      <script>
+        let loadingcircle = document.querySelector('.loading-circle-container');
+
+    window.addEventListener('load', function () {
+        loadingcircle.parentElement.removeChild(loadingcircle);
+    });
+      </script>
+   </body>
+</html>

@@ -1,0 +1,74 @@
+/* terminal window type font */
+@font-face {
+	font-family: coding;
+	src: url(CascadiaCode.ttf);
+}
+
+/* Basic styling of html elements */
+
+body {
+	background-color: rgb(10, 10, 10);
+	font-family: coding;
+	min-height: 100vh;
+	color: #57585c;
+	color: var(--color-text);
+}
+
+h1,
+h2 {
+	font-family: coding;
+	color: green;
+	margin-top: 15%;
+}
+
+img {
+	height: 250px;
+	width: 500px;
+}
+
+/* Main text styling */
+
+.main-text {
+	position: relative;
+	text-align: justify;
+	padding: 0 6vmax;
+}
+
+.main-text:first-child {
+	margin: 0 0 30vh;
+}
+
+.main-text:first-child,
+.main-text:last-child {
+	height: calc(100vh - 9.875em);
+	text-align: justify;
+}
+
+/* Changing text styling */
+
+.changing-text {
+	color: #efedeb;
+	font-size: 8vw;
+	margin: 0;
+	line-height: 1;
+	text-transform: uppercase;
+	font-weight: normal;
+	position: fixed;
+	opacity: 0;
+	white-space: pre;
+	bottom: 6vmax;
+	left: 0;
+	padding-left: 6vmax;
+	z-index: 1000;
+	line-height: 0.8;
+}
+
+.changing-text::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	height: 69%;
+	bottom: 12px;
+	width: calc(6vmax - 1.5rem);
+	background: green;
+}
