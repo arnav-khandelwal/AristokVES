@@ -1,0 +1,53 @@
+ul#messages{
+    list-style-type: none;
+    margin:  0;
+    padding: 0;
+    background-color: #FFFDD0;
+}
+
+.myName{
+  background-color: #FF9933;
+}
+
+input#message{
+    width:90%; 
+    position: fixed; 
+    bottom:10px;
+    outline-color:rgba(255, 24, 24, 0);
+    border-width: 4px;
+    border-color: #3a86ff;
+    height:85px;
+}
+
+input[type=submit]{
+    position: absolute; 
+    bottom:10px; 
+    width:9%;
+    height:80px;
+    border-radius: 8px;
+    background-color: #FF9933;
+    padding:0.5em 3em;
+    border: 0.16em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    text-decoration:none;
+    text-transform:uppercase;
+    font-family:'Roboto',sans-serif;
+    font-weight:400;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.15s;
+    margin-left:90.3%;
+    margin-top:46%;
+  
+    position: fixed; 
+    bottom:10px;
+    outline-color:rgba(255, 24, 24, 0);
+    border-width: 4px;
+    border-color: #3a86ff;
+    border-radius: 8px;
+    height:80px;
+       }
+
+input[type=submit]:hover{
+  background-color: #966738;
+}

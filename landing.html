@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+   <!-- links to various libraries -->
+   <head>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="styles.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <link rel="stylesheet" href="loading.css">
+      <link rel="icon" href="images/favicon.png" type="image/gif" sizes="40x40">
+	<!-- Links end -->
+
+      <title>Aristok</title>
+   </head>
+   
+   <body>
+
+      <div class='loading-circle-container'>
+         <div class="loading-circle"></div>
+      </div>
+   	<!-- home video -->
+      <video autoplay muted loop style="height: 100%; width: 100%">
+         <source src="shortvid.mp4" type="video/mp4">
+      </video>
+
+      	<!--header under video-->
+      <div class="content">         
+         <center><button id="myBtn" style="margin-right: 10px;" onclick="window.location = 'vid.html'">Watch Video</button>
+         <button id="myBtn" style="margin-right: 10px;" onclick="window.location = 'pricing.html'">Start Now!</button></center>
+      </div>
+
+      <!-- NAVBAR -->
+
+      <nav class="navbar navbar-fixed-top navbar-expand-lg" id="under-intro" width="100vw">
+         <div class="container">
+            <div class="navbar-header">
+               <span class="icon-bar rightTilt"></span>
+               <span class="icon-bar leftTilt"></span>
+               <span class="icon-bar none"></span>
+               </button>
+            </div>
+            <div class="collapse navbar-collapse">
+               <ul class="nav navbar-nav navbar-left">
+                  <li><img src="images/Logo.png" class="logo"><a href="landing.html" class="h2 navbar-brand future"><b>Aristok</b></a></li>
+               </ul>
+               <ul class="nav navbar-nav navbar-right">
+                  <li>
+                     <div class="dropdown-external">
+                        <a class="h">External Links<span class="caret extcaret"></span></a>
+                        <div class="external-working">
+                           <a href="discussion.html">Discussion forum!!</a>
+                           <a href="pricing.html">Pricing</a>
+                           <a href="abtcode.html">About the Code</a>
+                           <a href="vid.html">Video Presentation</a>
+                        </div>
+                     </div>
+                  </li>
+                  <li class="h2 navbar-brand future" id="changetext" onclick=" changetext(); dark()"><b>Dark Mode</b></li>
+               </ul>
+            </div>
+      </nav>
+
+      	<!--NAVBAR END-->
+
+      	<!-- Normal content -->
+
+      <div>
+         <br><br><br>
+         <center>
+         <div class="border">
+         <h1 style="font-size: 55px; text-align: center;" class="future">ARISTOK<br>
+         <span style="font-size: 40px; text-align: center;letter-spacing: 8px;" class="future2">Just clip it</span></h1>
+         </div>
+         </center>
+         <table width="100%">
+            <tr>
+               <br id="1">
+               <td class="td60 pd100">
+                  <center>
+                     <h1 class="future3">About</h1>
+                  </center>
+                  <p>
+                     <h3 class="animation-element slide-left">Aristok is the newly made Video editing software. Aristok </h3><h3 class="animation-element slide-left">is the abbreviation of aristokratikó which means classy in </h3><h3 class="animation-element slide-left"> greek. The software offers all the new features powered </h3> <h3 class="animation-element slide-left"> by the good old technologies which need no update.</h3> <h3 class="animation-element slide-left">Watch our <a href="vid.html" class="link">Video Presentation</a></h3> 
+                  </p>
+               </td>
+               <td class="td40 pd50">
+                  <br>
+                  <center><img src="images/2.jpg" style="width: 550px; height: auto; vertical-align: middle" class="animation-element slide-left right"></center>
+               </td>
+            </tr>
+         </table>
+      </div>
+      <center>
+
+      	<!--slideshow-->
+          <br id="2"><br><br><br>
+         <div class="w3-content w3-section animation-element slide-left" style="max-width:1000px">
+            <img class="mySlides w3-animate-fading" src="images/1.jpg" style="width:850px; height: 400px;">
+            <img class="mySlides w3-animate-fading" src="images/2.jpg" style="width:850px; height: 400px;">
+            <img class="mySlides w3-animate-fading" src="images/4.png" style="width:850px; height: 400px;">
+         </div>
+      </center>
+      <br>
+
+      <!--normal content again-->
+
+      <div id="3">
+         <table width="100%">
+            <tr>
+               <td class="td40 pd50">
+                  <br>
+                  <center><img src="images/chat.jpg" style="width: 750px; height: auto; vertical-align: middle;" class="animation-element slide-left"></center>
+               </td>
+               <td class="td60 pd100">
+                  <center>
+                     <h1 class="future3">Real Time Discussion platform</h1>
+                  </center>
+                  <p>
+
+                     <h3 class="animation-element slide-left right">Our Discussion Platform is for anyone who comes across</h3><h3 class="animation-element slide-left right"> any problem regarding our software or just wants to</h3><h3 class="animation-element slide-left right"> share something cool they came across.People can talk to</h3><h3 class="animation-element slide-left right"> other in real time people solving each other's problems</h3><h3 class="animation-element slide-left right"> or maybe just hang around and talk to each other. We</h3><h3 class="animation-element slide-left right"> also provide an option of deleting one's messages incase</h3><h3 class="animation-element slide-left right"> you sent something by mistake. This platform is</h3><h3 class="animation-element slide-left right"> completely Safe For Work and any message containing </h3><h3 class="animation-element slide-left right"> offensive language or thughts will be immediately</h3><h3 class="animation-element slide-left right"> deleted by the moderators themselves and they will be</h3><h3 class="animation-element slide-left right"> blocked immediately.
+                     <h3 class="animation-element slide-left right"><a href="#" class="link">Join discussion now!</a></h3>
+
+                  </p>
+               </td>
+            </tr>
+         </table>
+      </div>
+      <div id="4">
+         <table width="100%">
+            <tr>
+               <td class="td60 pd100">
+                  <center>
+                     <h1 class="future3">SOME STATS</h1>
+                  </center>
+                  <p class="animation-element slide-left">
+                     <h3 class="animation-element slide-left">We have become the highest selling video editing software in just 3 months! </h3><h3 class="animation-element slide-left"> We have sold over <font style="color:red;">500,000</font> copies of our software and earned <font style="color:red">1 million USD </font>
+                   </h3><h3 class="animation-element slide-left">in revenue! </h3>
+                  </p>
+               </td>
+               <td class="td40 pd50">
+                  <br>
+                  <center><img src="images/4.png" style="width: 750px; height: auto; vertical-align: middle;" class="animation-element slide-left right"></center>
+               </td>
+            </tr>
+         </table>
+      </div>
+      <div class="longimage">
+         <h1 style="color: white;text-align: center;margin-top: 20px; padding: 40px;" >About The Code!</h1>
+         <h2 style="color: white;text-align: center;margin-top: 20px; padding-right: 40px;">Know the story behind the code! </h2>
+         <br><br><br>
+         <center><button id="myBtn"><a href="abtcode.html">About The Code</button></center></a>
+         <br><br>
+      </div>
+      <table width="60%" align="center" style="margin-top: 2vw;">
+         <tr>
+            <td class="woah">
+               <h1 class="woah2">Chroma Key</h1>
+               <center>
+                  <video autoplay muted loop class="size animation-element slide-left" style="box-shadow:10px 10px 5px #ccc; background-color: none;">
+                     <source src="shortvid.mp4" type="video/mp4">
+                  </video>
+               </center>
+               <h2 class="woah2">Place yourself anywhere in the world with our perfectly built Chroma Key!</h2>
+            </td>
+            <td class="woah">
+               <h1 class="woah2">Preview & Edit</h1>
+               <center><img src="images/1.jpg" class="size animation-element slide-left"></center>
+               <h2 class="woah2">Preview in real time while editing to speed up your workflow. </h2>
+            </td>
+         </tr>
+         <tr>
+            <td class="woah">
+               <h1 class="woah2">Dual Display</h1>
+               <center><img src="images/2.jpg" class="size animation-element slide-left"></center>
+               <h2 class="woah2">Supports integrated dual displays with amazing plug-ins to make full use of your extended displays!</h2>
+            </td>
+            <td class="woah">
+               <h1 class="woah2">Color Grading</h1>
+               <center><img src="images/4.png" class="size animation-element slide-left"></center>
+               <h2 class="woah2">Color Grade like a professional with our easy tools to bring out the best in your videos!</h2>
+            </td>
+         </tr>
+      </table>
+
+      `<!-- Our Team -->
+
+      <div class="ourteam" id="5">
+         <br><br>
+         <center><hr><center>
+            <br><br>
+            <h1 style="color: white;font-size: 40px;">OUR TEAM</h1>
+            <br><br>
+         <center>
+         <table width="100%" >
+            <tr>
+               <td width="50%">
+               <center><img src="images/person4.jpg"><br><br>
+                  <h1 style="color: white;">Arjun Kapoor</h1><br><br><br></center>
+               </td>
+               <td width="50%">
+               <center><img src="images/person3.jpg"><br><br>
+                  <h1 style="color: white;">Arnav Khandelwal</h1><br><br><br></center>
+               </td>
+            </tr>
+         </table>
+         </center>
+      </div>
+
+
+      	<!-- JAVA SCRIPT -->
+
+      <script src="https://code.jquery.com/jquery-1.12.0.js"></script>
+      <script type="text/javascript">
+      	//java for slideshow
+         var myIndex = 0;
+         carousel();
+         
+         function carousel() {
+           var i;
+           var x = document.getElementsByClassName("mySlides");
+           for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";  
+           }
+           myIndex++;
+           if (myIndex > x.length) {myIndex = 1}    
+           x[myIndex-1].style.display = "block";  
+           setTimeout(carousel, 4000);    
+         }
+         var $animation_elements = $('.animation-element');
+         var $window = $(window);
+         
+         //java for animation of content coming from left
+
+         function check_if_in_view() {
+           var window_height = $window.height();
+           var window_top_position = $window.scrollTop();
+           var window_bottom_position = (window_top_position + window_height);
+          
+           $.each($animation_elements, function() {
+             var $element = $(this);
+             var element_height = $element.outerHeight();
+             var element_top_position = $element.offset().top;
+             var element_bottom_position = (element_top_position + element_height);
+          
+             //check to see if this current container is within viewport
+             if ((element_bottom_position >= window_top_position) &&
+                 (element_top_position <= window_bottom_position)) {
+               $element.addClass('in-view');
+             } else {
+               $element.removeClass('in-view');
+             }
+           });
+         }
+         
+         $window.on('scroll resize', check_if_in_view);
+         $window.trigger('scroll');
+
+         function dark() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+         }
+
+         function changetext() {
+            var x = document.getElementById("changetext");
+            if (x.innerHTML == "Light Mode") {
+            x.innerHTML = "Dark Mode";
+            } else {
+            x.innerHTML = "Light Mode";
+            }
+         }
+
+
+    let loadingcircle = document.querySelector('.loading-circle-container');
+
+    window.addEventListener('load', function () {
+        loadingcircle.parentElement.removeChild(loadingcircle);
+    });
+     
+      </script>
+   </body>
+</html>
